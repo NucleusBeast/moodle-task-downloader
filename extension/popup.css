@@ -1,0 +1,15 @@
+:root { color-scheme: light; font: 14px/1.5 system-ui, sans-serif; color: #202a29; background: #f7f8f5; }
+body { width: 340px; margin: 0; }
+main { padding: 24px; }
+.eyebrow { margin: 0 0 12px; font-size: 10px; font-weight: 700; letter-spacing: .12em; color: #526c64; }
+h1 { font-size: 23px; line-height: 1.2; letter-spacing: -.04em; margin: 0 0 12px; }
+p { margin: 0 0 18px; }
+button { width: 100%; border: 0; border-radius: 7px; padding: 12px; font: inherit; font-weight: 650; background: #245b48; color: white; cursor: pointer; }
+button:hover { background: #194634; }
+.secondary { margin-top: 10px; background: #e4ece7; color: #245b48; }
+.secondary:hover { background: #d5e2da; }
+button:focus-visible { outline: 3px solid #91bda9; outline-offset: 3px; }
+button:disabled { opacity: .6; cursor: wait; }
+#status { margin: 14px 0; font-size: 12px; overflow-wrap: anywhere; }
+#warnings { padding-left: 18px; max-height: 160px; overflow: auto; font-size: 12px; color: #85420b; }
+.footnote { border-top: 1px solid #dce2dc; padding-top: 14px; margin-bottom: 0; font-size: 11px; color: #56645f; }

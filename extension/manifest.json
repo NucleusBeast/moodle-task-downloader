@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Moodle Grey Area Saver",
+  "version": "1.0.0",
+  "description": "Save only the assignment's grey description area, including dates, links and pictures, as a local HTML file.",
+  "permissions": ["activeTab", "scripting", "downloads", "clipboardWrite"],
+  "action": {
+    "default_title": "Save assignment content",
+    "default_popup": "popup.html"
+  }
+}
